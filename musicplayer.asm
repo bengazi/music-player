@@ -11,7 +11,7 @@ start:          mov     ax,dane
                 mov     sp,offset szczyt
 
 main :
-		call parametr
+			call parametr
         	call odczyt
         	lea si,nuty
         	call graj
